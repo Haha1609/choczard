@@ -87,72 +87,72 @@
         mac_default_layer {
             display-name = "Mac";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp F1    &kp F2    &kp F3     &kp F4  &kp F5     &kp UP           &kp UP_ARROW     &kp F6     &kp F7     &kp F8     &kp F9           &kp F10     &kp F11
+&kp ESC    &kp N1    &kp N2    &kp N3     &kp N4  &kp N5     &kp UP_ARROW     &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp EQUAL
+&kp TAB    &kp Q     &kp W     &kp E      &kp R   &kp T      &kp DOWN_ARROW   &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSPC
+&kp CAPS   &kp A     &kp S     &kp D      &kp F   &kp G      &kp LEFT_ARROW   &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V   &kp B      &kp RIGHT_ARROW  &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &mo 1   &kp SPACE  &kp ENTER        &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE  &kp RCTRL
             >;
         };
 
         windows_default_layer {
             display-name = "Windows";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp F1    &kp F2    &kp F3     &kp F4  &kp F5     &kp UP           &kp UP_ARROW     &kp F6     &kp F7     &kp F8     &kp F9           &kp F10     &kp F11
+&kp ESC    &kp N1    &kp N2    &kp N3     &kp N4  &kp N5     &kp UP_ARROW     &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp EQUAL
+&kp TAB    &kp Q     &kp W     &kp E      &kp R   &kp T      &kp DOWN_ARROW   &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSPC
+&kp CAPS   &kp A     &kp S     &kp D      &kp F   &kp G      &kp LEFT_ARROW   &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V   &kp B      &kp RIGHT_ARROW  &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &mo 1   &kp SPACE  &kp ENTER        &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE  &kp RCTRL
             >;
         };
 
         gaming_layer {
             display-name = "Gaming";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp F1    &kp F2    &kp F3     &kp F4  &kp F5     &kp UP           &kp UP_ARROW     &kp F6     &kp F7     &kp F8     &kp F9           &kp F10     &kp F11
+&kp ESC    &kp N1    &kp N2    &kp N3     &kp N4  &kp N5     &kp UP_ARROW     &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp EQUAL
+&kp TAB    &kp Q     &kp W     &kp E      &kp R   &kp T      &kp DOWN_ARROW   &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSPC
+&kp CAPS   &kp A     &kp S     &kp D      &kp F   &kp G      &kp LEFT_ARROW   &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V   &kp B      &kp RIGHT_ARROW  &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &mo 1   &kp SPACE  &kp ENTER        &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE  &kp RCTRL
             >;
         };
 
         code_layer {
             display-name = "Code";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp F1    &kp F2    &kp F3     &kp F4  &kp F5     &kp UP           &kp UP_ARROW     &kp F6     &kp F7     &kp F8     &kp F9           &kp F10     &kp F11
+&kp ESC    &kp N1    &kp N2    &kp N3     &kp N4  &kp N5     &kp UP_ARROW     &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp EQUAL
+&kp TAB    &kp Q     &kp W     &kp E      &kp R   &kp T      &kp DOWN_ARROW   &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSPC
+&kp CAPS   &kp A     &kp S     &kp D      &kp F   &kp G      &kp LEFT_ARROW   &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V   &kp B      &kp RIGHT_ARROW  &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &mo 1   &kp SPACE  &kp ENTER        &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE  &kp RCTRL
             >;
         };
 
         number_layer {
             display-name = "Number";
             bindings = < 
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp F1    &kp F2    &kp F3     &kp F4  &kp F5     &kp UP           &kp UP_ARROW     &kp F6     &kp F7     &kp F8     &kp F9           &kp F10     &kp F11
+&kp ESC    &kp N1    &kp N2    &kp N3     &kp N4  &kp N5     &kp UP_ARROW     &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp EQUAL
+&kp TAB    &kp Q     &kp W     &kp E      &kp R   &kp T      &kp DOWN_ARROW   &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSPC
+&kp CAPS   &kp A     &kp S     &kp D      &kp F   &kp G      &kp LEFT_ARROW   &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V   &kp B      &kp RIGHT_ARROW  &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &mo 1   &kp SPACE  &kp ENTER        &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE  &kp RCTRL
             >;
         };
 
         function_layer {
             display-name = "Function";
             bindings =<
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp F1    &kp F2    &kp F3     &kp F4  &kp F5     &kp UP           &kp UP_ARROW     &kp F6     &kp F7     &kp F8     &kp F9           &kp F10     &kp F11
+&kp ESC    &kp N1    &kp N2    &kp N3     &kp N4  &kp N5     &kp UP_ARROW     &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp EQUAL
+&kp TAB    &kp Q     &kp W     &kp E      &kp R   &kp T      &kp DOWN_ARROW   &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSPC
+&kp CAPS   &kp A     &kp S     &kp D      &kp F   &kp G      &kp LEFT_ARROW   &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V   &kp B      &kp RIGHT_ARROW  &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &mo 1   &kp SPACE  &kp ENTER        &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE  &kp RCTRL
             >;
         };
     };
